@@ -3,6 +3,7 @@ import {useState} from 'react'
 import {BiSearch} from 'react-icons/bi';
 import {BsPerson} from 'react-icons/bs';
 import {HiOutlineMenuAlt4} from 'react-icons/hi';
+import {AiOutlineClose} from 'react-icons/ai';
 import {FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaYoutube} from 'react-icons/fa';
 
 function Navbar() {
@@ -10,7 +11,7 @@ function Navbar() {
     const handleNav = () => setNav(!nav);
   return (
     <div className={nav ? "navbar navbar-bg" : "navbar"}>
-      <div className='logo'>
+      <div className={nav ? "logo dark" : "logo"}>
         <h2>BEACHES.</h2>
       </div>
         <ul className='nav-menu'>
@@ -25,7 +26,7 @@ function Navbar() {
             <BsPerson className='icon'/>
         </div>
         <div className='burger-menu' onClick={handleNav}>
-            <HiOutlineMenuAlt4 className='icon' />
+            {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : (<AiOutlineClose className='icon dark' />)}            
         </div>
         <div className={nav ? 'mobile-menu active' : "mobile-menu"}>
             <ul className='mobile-nav'>

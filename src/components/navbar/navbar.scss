@@ -6,6 +6,8 @@
     align-items: center;
     padding: 0 1rem;
     z-index: 2;
+    position: absolute;
+    color: white;
 }
 .navbar-bg{
     background-color: whitesmoke;
@@ -23,7 +25,9 @@
 .mobile-menu{
     display: none;
 }
-
+.icon{
+    font-size: 1.5rem;
+}
 @media screen and (max-width: 940px){
 
     .mobile-menu{
@@ -34,8 +38,7 @@
         left: 0;
         position: absolute;
         justify-content: space-between;
-        // align-items: center;
-        // color: rgba(255,255,255,0.95);
+        color: black;
         background-color: whitesmoke;
         transition: 0.3s;       
         
@@ -48,6 +51,9 @@
            margin: 1rem; 
            width: 90%;
         }
+    }
+    .dark{
+        color: black;
     }
     .active{
         top: 80px;
