@@ -1,0 +1,44 @@
+@import '../../utilities/variables';
+
+footer{
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #333;
+    color: white;
+
+    h3{
+        color: $primaryLight;
+    }
+    .top, .bottom{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .social{
+        display: flex;
+        justify-content: space-between;
+        width: 280px;
+    }
+    .icon{
+        color: $primaryLight;
+    }
+    .left, .right{
+        display: flex;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+    }
+    li{
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    footer{
+        ul{
+            flex-direction: column;
+        }
+    }
+}

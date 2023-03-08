@@ -4,6 +4,7 @@ import Destinations from "./components/destinations/Destinations";
 import Search from "./components/search/Search";
 import Selects from "./components/selects/Selects";
 import ImageCarousel from "./components/imageCarousel/ImageCarousel";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Search />
       <Selects />
       <ImageCarousel />
+      <Footer />
     </div>
   );
 }
