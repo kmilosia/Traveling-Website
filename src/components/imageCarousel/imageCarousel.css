@@ -1,1 +1,12 @@
-/*# sourceMappingURL=imageCarousel.css.map */
+.carousel {
+  padding: 2rem 0;
+}
+.carousel img {
+  height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.thumbs-wrapper, .carousel-status {
+  display: none;
+}/*# sourceMappingURL=imageCarousel.css.map */

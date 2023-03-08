@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"imageCarousel.css"}
+{"version":3,"sources":["imageCarousel.scss","imageCarousel.css"],"names":[],"mappings":"AAAA;EACI,eAAA;ACCJ;ADCI;EACI,YAAA;EACA,oBAAA;KAAA,iBAAA;ACCR;;ADEA;EACI,aAAA;ACCJ","file":"imageCarousel.css"}
