@@ -8,7 +8,7 @@ import Beach5 from '../../assets/beach5.jpg';
 
 function Destinations() {
   return (
-    <div className='destinations'>
+    <div nam="destinations" className='destinations'>
       <div className='container'>
         <h1>All-inclusive Resorts</h1>
         <p>On the Caribbean's Best Beaches</p>

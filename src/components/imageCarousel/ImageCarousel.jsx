@@ -8,7 +8,7 @@ import beach8 from '../../assets/beach8.jpg';
 
 function ImageCarousel() {
   return (
-    <div className="container">
+    <div name="carousel" className="container">
     <Carousel className='carousel' showArrows={true} autoPlay infiniteLoop>
                 <div>
                     <img src={beach6} />
